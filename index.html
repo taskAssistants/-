@@ -1,136 +1,155 @@
-<!DOCTYPE html><html lang="ru">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Прайс услуг</title>
+  <title>Прайс сайтов</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }body {
-  font-family: 'Montserrat', sans-serif;
-  background: radial-gradient(circle at top, #1a1a1a, #000);
-  color: #e8e8e8;
-  min-height: 100vh;
-  padding: 40px 20px;
-}
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
-.container {
-  max-width: 420px;
-  margin: 0 auto;
-}
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: radial-gradient(circle at top, #1a1a1a, #000);
+      color: #e8e8e8;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
 
-.section {
-  margin-bottom: 50px;
-}
+    .container {
+      max-width: 420px;
+      margin: 0 auto;
+    }
 
-.title {
-  text-align: center;
-  font-size: 22px;
-  letter-spacing: 2px;
-  font-weight: 600;
-  color: #d6c38b;
-  margin-bottom: 25px;
-}
+    .section {
+      margin-bottom: 55px;
+    }
 
-.divider {
-  width: 60px;
-  height: 1px;
-  background: #d6c38b;
-  margin: 10px auto 30px;
-  opacity: 0.7;
-}
+    .title {
+      text-align: center;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: 600;
+      color: #d6c38b;
+      margin-bottom: 10px;
+    }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  padding: 14px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  font-size: 14px;
-}
+    .subtitle {
+      text-align: center;
+      font-size: 13px;
+      opacity: 0.75;
+      margin-bottom: 18px;
+      line-height: 1.4;
+    }
 
-.row:last-child {
-  border-bottom: none;
-}
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: #d6c38b;
+      margin: 0 auto 25px;
+      opacity: 0.7;
+    }
 
-.price {
-  color: #d6c38b;
-  font-weight: 500;
-}
+    .price-box {
+      text-align: center;
+      padding: 14px 0;
+      border: 1px solid rgba(214,195,139,0.35);
+      border-radius: 8px;
+    }
 
-.note {
-  text-align: center;
-  font-size: 13px;
-  opacity: 0.7;
-  margin-top: 15px;
-  line-height: 1.5;
-}
+    .price-label {
+      font-size: 12px;
+      opacity: 0.6;
+      margin-bottom: 4px;
+    }
 
+    .price {
+      font-size: 18px;
+      font-weight: 600;
+      color: #d6c38b;
+      letter-spacing: 0.5px;
+    }
+
+    .note {
+      text-align: center;
+      font-size: 13px;
+      opacity: 0.7;
+      margin-top: 15px;
+      line-height: 1.5;
+    }
   </style>
 </head>
-<body>  <div class="container"><div class="section">
-  <div class="title">ПРЕЗЕНТАЦИИ</div>
-  <div class="divider"></div>
+<body>
 
-  <div class="row">
-    <span>до 5 слайдов</span>
-    <span class="price">от 500 ₸</span>
+<div class="container">
+
+  <div class="section">
+    <div class="title">САЙТ-ВИЗИТКА</div>
+    <div class="subtitle">
+      Компактный сайт для личного бренда или услуг.<br>
+      Информация, контакты, соцсети.
+    </div>
+    <div class="divider"></div>
+
+    <div class="price-box">
+      <div class="price-label">Стоимость</div>
+      <div class="price">от 3 000 ₸</div>
+    </div>
   </div>
-  <div class="row">
-    <span>6–10 слайдов</span>
-    <span class="price">от 700 ₸</span>
+
+  <div class="section">
+    <div class="title">ЛЕНДИНГ</div>
+    <div class="subtitle">
+      Одностраничный сайт для продажи услуги или продукта.<br>
+      Фокус на заявки и конверсию.
+    </div>
+    <div class="divider"></div>
+
+    <div class="price-box">
+      <div class="price-label">Стоимость</div>
+      <div class="price">от 5 000 ₸</div>
+    </div>
   </div>
-  <div class="row">
-    <span>10+ слайдов</span>
-    <span class="price">договорная</span>
+
+  <div class="section">
+    <div class="title">МНОГОСТРАНИЧНЫЙ САЙТ</div>
+    <div class="subtitle">
+      Полноценный сайт с несколькими страницами:<br>
+      услуги, портфолио, контакты.
+    </div>
+    <div class="divider"></div>
+
+    <div class="price-box">
+      <div class="price-label">Стоимость</div>
+      <div class="price">от 4 000 ₸</div>
+    </div>
   </div>
+
+  <div class="section">
+    <div class="title">САЙТ-ПОРТФОЛИО</div>
+    <div class="subtitle">
+      Сайт для демонстрации работ и проектов.<br>
+      Подходит дизайнерам и фрилансерам.
+    </div>
+    <div class="divider"></div>
+
+    <div class="price-box">
+      <div class="price-label">Стоимость</div>
+      <div class="price">3 000 ₸</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="title">ДОПОЛНИТЕЛЬНО</div>
+    <div class="divider"></div>
+
+    <div class="note">
+      Дизайн, адаптация под телефон, правки и доработки — по договорённости.<br>
+      Если нужен нестандартный сайт — просто напишите.
+    </div>
+  </div>
+
 </div>
 
-<div class="section">
-  <div class="title">РЕФЕРАТЫ / ЭССЕ / СООБЩЕНИЯ</div>
-  <div class="divider"></div>
-
-  <div class="row">
-    <span>до 3 страниц</span>
-    <span class="price">от 500 ₸</span>
-  </div>
-  <div class="row">
-    <span>4–6 страниц</span>
-    <span class="price">от 700 ₸</span>
-  </div>
-  <div class="row">
-    <span>6+ страниц</span>
-    <span class="price">договорная</span>
-  </div>
-</div>
-
-<div class="section">
-  <div class="title">САМОСТОЯТЕЛЬНАЯ РАБОТА СТУДЕНТА (СРС)</div>
-  <div class="divider"></div>
-
-  <div class="row">
-    <span>Цена</span>
-    <span class="price">договорная</span>
-  </div>
-</div>
-
-<div class="section">
-  <div class="title">ИНФОГРАФИКА</div>
-  <div class="divider"></div>
-
-  <div class="row">
-    <span>Цена</span>
-    <span class="price">договорная</span>
-  </div>
-</div>
-
-<div class="section">
-  <div class="title">ДОПОЛНИТЕЛЬНО</div>
-  <div class="divider"></div>
-
-  <div class="note">
-    Выполняем любые учебные задания по договорённости.<br>
-    Даже если услуги нет в прайс-листе — напишите нам.
-  </div>
-</div>
-
-  </div></body>
+</body>
 </html>
